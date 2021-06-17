@@ -20,7 +20,8 @@ int main()
 {
     int b = 2;
     while (true) {
-        cout << b << " " <<  checkIfPrime(b) << endl;
+        if (checkIfPrime(b))
+            cout << b << endl;
         b++;
         if (b > 1000)
             break;
