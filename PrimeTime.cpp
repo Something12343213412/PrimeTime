@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Put divider as number - 1 for function to work
 bool checkIfPrime(int number, int divider) {
     if (divider == 1)
         return true;
@@ -12,6 +13,11 @@ bool checkIfPrime(int number, int divider) {
     else {
         return false;
     }
+}
+
+// Put input to 1000 for the function to work
+void checkFromOneToOneThousand(int number) {
+    
 }
 
 
