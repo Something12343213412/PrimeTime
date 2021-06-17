@@ -18,5 +18,5 @@ bool checkIfPrime(int number, int divider) {
 
 int main()
 {
-    
+    cout << checkIfPrime(7,6) << endl;
 }
