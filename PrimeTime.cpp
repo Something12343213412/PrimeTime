@@ -22,7 +22,8 @@ int checkFromOneToOneThousand(int number) {
         return 0;
     
     if (checkIfPrime(number, number - 1) == true)
-        cout << number << endl;
+        if(checkIfPrime(number +2, number +1) || checkIfPrime(number -2, number -3))
+            cout << number << endl;
     
     checkFromOneToOneThousand(number - 1);
 }
