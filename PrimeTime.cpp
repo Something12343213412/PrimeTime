@@ -6,7 +6,7 @@ bool checkIfPrime(int number, int divider) {
     if (divider == 1)
         return true;
 
-    if (number % divider == 0)
+    if (number % divider != 0)
         checkIfPrime(number, divider - 1);
 
     else {
