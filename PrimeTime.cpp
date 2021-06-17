@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 bool checkIfPrime(int number) {
     bool ifPrime = true;
 
@@ -16,5 +18,5 @@ bool checkIfPrime(int number) {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << checkIfPrime(7);
 }
