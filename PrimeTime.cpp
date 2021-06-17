@@ -7,7 +7,7 @@ bool checkIfPrime(int number) {
 
     for (int a = number - 1; a > 1; a--)
     {
-        if (number % a != 0)
+        if (number % a == 0)
             ifPrime = false;
     }
 
