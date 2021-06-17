@@ -18,5 +18,11 @@ bool checkIfPrime(int number) {
 
 int main()
 {
-    cout << checkIfPrime(7);
+    int b = 2;
+    while (true) {
+        cout << b << " " <<  checkIfPrime(b) << endl;
+        b++;
+        if (b > 1000)
+            break;
+    }
 }
