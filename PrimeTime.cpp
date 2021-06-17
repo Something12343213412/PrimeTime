@@ -17,7 +17,13 @@ bool checkIfPrime(int number, int divider) {
 
 // Put input to 1000 for the function to work
 void checkFromOneToOneThousand(int number) {
-    
+
+    if (checkIfPrime(number, number - 1) == true)
+        cout << number;
+    else
+    {
+        checkFromOneToOneThousand(number - 1);
+    }
 }
 
 
