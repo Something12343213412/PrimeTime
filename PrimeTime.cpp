@@ -30,5 +30,5 @@ void checkFromOneToOneThousand(int number) {
 
 int main()
 {
-    cout << checkIfPrime(7,6) << endl;
+    checkFromOneToOneThousand(1000);
 }
